@@ -85,6 +85,8 @@ or From NuGet.org, always install latest:
 Install-Package Zaghloul.QA.TestRail.xUnit
 ```
 
+> **NuGet Package:** [Zaghloul.QA.TestRail.xUnit](https://www.nuget.org/packages/Zaghloul.QA.TestRail.xUnit)
+
 The plugin supports both **.NET 6** & **.NET 8**.
 
 #### 2. Register the Custom Framework (Mandatory)
@@ -168,6 +170,8 @@ Add the project as as reference to your solution or install latest available nug
 ```powershell
 Install-Package Zaghloul.QA.TestRail.xUnit
 ```
+
+> **NuGet Package:** [Zaghloul.QA.TestRail.xUnit](https://www.nuget.org/packages/Zaghloul.QA.TestRail.xUnit)
 
 The plugin supports both **.NET 6** & **.NET 8**.
 
