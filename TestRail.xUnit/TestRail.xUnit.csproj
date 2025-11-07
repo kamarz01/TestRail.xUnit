@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<RootNamespace>Zaghloul.QA.TestRail.xUnit</RootNamespace>
+		<AssemblyName>Zaghloul.QA.TestRail.xUnit</AssemblyName>
+		<Authors>Kamar Zaghloul</Authors>
+		<Company>Zaghloul Ltd</Company>
+		<Copyright>Copyright Zaghloul Ltd. © 2025</Copyright>
+		<Description>Zaghloul TestRail Integration Plugin for xUnit</Description>
+		<Version>2.0.2</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoFixture.Xunit2" Version="4.18.1" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="Reqnroll" Version="3.1.2" />
+		<PackageReference Include="xunit.extensibility.execution" Version="2.8.1" />
+		<PackageReference Include="xunit.runner.utility" Version="2.8.1" />
+	</ItemGroup>
+
+</Project>
