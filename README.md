@@ -1,4 +1,4 @@
-# TestRail xUnit Integration Plugin - User Guide
+# TestRail xUnit Integration Plugin
 
 ## 📋 Table of Contents
 
