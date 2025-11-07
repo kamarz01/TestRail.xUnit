@@ -10,7 +10,7 @@ namespace Zaghloul.QA.TestRail.xUnit.TestRail.Client
     public class BaseClient
     {
         private readonly HttpClient _httpClient = new(new HttpClientHandler { AllowAutoRedirect = true });
-        private string BaseURL = "https://zaghloul.testrail.io/";
+        private string BaseURL;
         private string UserName;
         private string ApiKeyOrPassword;
 
@@ -19,6 +19,7 @@ namespace Zaghloul.QA.TestRail.xUnit.TestRail.Client
             var config = AppConfigHelper.GetAppConfigurations();
             UserName = config.Email;
             ApiKeyOrPassword = config.ApiKey;
+            BaseURL = config.Url;
         }
 
         protected string CreateUri(RequestType requestType, RequestTarget target, ulong? id1 = null)

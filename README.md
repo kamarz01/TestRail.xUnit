@@ -103,6 +103,7 @@ Add a `testrailSettings.json` file to your test project, and set **Copy to Outpu
 
 ```json
 {
+  "Url": "https://zaghloul.testrail.io",
   "Email": "email@domain.com",
   "ApiKey": "123456-XXXXXXXXXXXXXXXXXX",
   "PublishResultsEnabled": true,
@@ -116,6 +117,7 @@ Add a `testrailSettings.json` file to your test project, and set **Copy to Outpu
 ```
 
 **Required Parameters:**
+- `Url`: Your TestRail Instance URL.
 - `Email`: Your TestRail team account.
 - `ApiKey`: Either your TestRail password or an API Key (both are supported).
 - `ProjectId`: The TestRail Project ID.

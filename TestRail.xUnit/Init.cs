@@ -16,6 +16,7 @@ namespace Zaghloul.QA.TestRail.xUnit
             // Check if ProjectId isn't provided
 
             if (!config.PublishResultsEnabled
+                || string.IsNullOrWhiteSpace(config.Url)
                 || string.IsNullOrWhiteSpace(config.Email)
                 || string.IsNullOrWhiteSpace(config.ApiKey)
                 || !ulong.TryParse(config.ProjectId, out ulong projectId))

@@ -2,6 +2,8 @@
 {
     public class TestRailConfiguration
     {
+        public string Url { get; set; }
+
         public string Email { get; set; }
 
         public string ApiKey { get; set; }
